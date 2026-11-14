@@ -11,7 +11,7 @@
 [![50 photos per run](https://img.shields.io/badge/photos%20per%20run-%E2%89%A4%2050-E8664A?style=flat-square)](#limits)
 [![Originals never changed](https://img.shields.io/badge/originals-never%20changed-12A88C?style=flat-square)](#safety-promises)
 
-**Finds receipts, bills, and other paper photos in a NAS folder for a date range you pick,<br>lets you review them in a table, then saves their text to one file. ID and card text stays hidden.**
+**Finds receipts, bills, and other paper photos in a NAS folder for a date range you pick, lets you review them in a table, then saves their text to one file. ID and card text stays hidden.**
 
 [The problem](#the-problem) · [What it does](#what-it-does) · [How it works](#how-it-works) · [Install](#install) · [Testing](#testing) · [Limits](#limits) · [Disclosure](#disclosure)
 
@@ -57,7 +57,7 @@ It ends with a report whose counts add up to every file it looked at.
 ## How it works
 
 ```mermaid
-flowchart LR
+flowchart TD
     U(["You: folder + period"]):::you --> S0["0 · Health check<br/>photo-agent"]:::nas
     S0 --> S2["2 · List images<br/>file-agent"]:::nas
     S2 --> S3["3 · Read text, pick label<br/>photo-agent · batches of 10"]:::nas
