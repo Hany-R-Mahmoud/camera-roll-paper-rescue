@@ -150,12 +150,12 @@ Which of my recent photos are tickets or documents?
 ├── assets/
 │   └── banner.svg
 └── skills/
-    └── camera-roll-paper-rescue/      ← the Skill package
-        ├── SKILL.md                   ← every rule a run depends on
+    └── camera-roll-paper-rescue/  ← the Skill
+        ├── SKILL.md               ← all run rules
         └── references/
-            ├── user-guide.md          ← setup, use, undo, remove
-            ├── test-plan.md           ← finalist test cases
-            └── disclosure.md          ← components, data flow, AI tools
+            ├── user-guide.md      ← setup, undo
+            ├── test-plan.md       ← test cases
+            └── disclosure.md      ← AI tools, data
 ```
 
 ## Testing
